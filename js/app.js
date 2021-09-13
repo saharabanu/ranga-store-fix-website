@@ -48,7 +48,7 @@ const updatePrice = (id, value) => {
   const total = convertedOldPrice + convertPrice;
   document.getElementById(id).innerText = total.toFixed(2);
   updateTotal()
-  // console.log(total)
+  
 };
 
 // set innerText function
